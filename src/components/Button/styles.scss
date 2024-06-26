@@ -1,0 +1,134 @@
+button {
+    border-radius: 8px;
+    border: none;
+    color: #ffffff;
+    background-color: #7f27ff;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    .icon-loading {
+        width: 32px;
+    }
+
+    &.loading-active {
+        opacity: 0.7;
+        cursor: default;
+    }
+
+    &:hover {
+        opacity: 0.8;
+    }
+
+    // variant style
+
+    &.circle {
+        border-radius: 100px;
+    }
+
+    &.rounded {
+        border-radius: 8px;
+    }
+
+    // size style
+
+    &.sm {
+        padding: 5px 16px;
+        font-size: 14px;
+
+        .icon-loading {
+            width: 14px;
+        }
+    }
+
+    &.md {
+        padding: 8px 16px;
+        font-size: 16px;
+        .icon-loading {
+            width: 16px;
+        }
+    }
+
+    &.lg {
+        padding: 12px 16px;
+        font-size: 16px;
+        font-weight: 500;
+        .icon-loading {
+            width: 16px;
+        }
+    }
+
+    &.xl {
+        padding: 16px 16px;
+        font-size: 18px;
+        font-weight: 500;
+        .icon-loading {
+            width: 20px;
+        }
+    }
+
+    // type style
+
+    &.primary {
+        color: #ffffff;
+        background-color: #7f27ff;
+        &.disabled {
+            opacity: 0.5;
+            cursor: default;
+        }
+    }
+
+    &.secondary {
+        color: #7f27ff;
+        background-color: transparent;
+        border: 1px solid #7f27ff;
+        &.disabled {
+            opacity: 0.5;
+            cursor: default;
+        }
+    }
+
+    &.dashed {
+        color: #7f27ff;
+        background-color: transparent;
+        border: 1px dashed #7f27ff;
+        &.disabled {
+            opacity: 0.5;
+            cursor: default;
+        }
+    }
+
+    // disable style
+
+    &.disabled {
+        opacity: 0.5;
+        cursor: default;
+    }
+
+    // iconPosition style
+
+    &.left-icon {
+        display: flex;
+        align-items: center;
+    }
+
+    &.right-icon {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+}
+
+a {
+    color: #7f27ff;
+    background-color: transparent;
+    text-decoration: underline;
+    font-size: 18px;
+    &.disabled {
+        opacity: 0.5;
+        cursor: default;
+    }
+}

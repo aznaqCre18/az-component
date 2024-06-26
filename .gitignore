@@ -1,0 +1,55 @@
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm/
+
+# Output directories
+dist/
+build/
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Coverage directory used by testing tools
+coverage/
+
+# Miscellaneous
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Local configuration files
+*.local
+*.env.local
+*.env.*.local
+
+# Build artifacts and other temporary files
+*.min.js
+*.map
+*.lock
+yarn-error.log
+
+# Lockfiles
+package-lock.json
+yarn.lock
+
+# Files created by bundlers or transpilers
+.eslintcache
+.parcel-cache/
+.pnp/
+.pnp.js

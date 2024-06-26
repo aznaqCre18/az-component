@@ -1,0 +1,23 @@
+# Ignore all .gitignore rules for npm publish
+.gitignore
+
+# Source files
+src/
+
+# Tests
+test/
+tests/
+__tests__/
+
+# Configurations
+*.config.js
+tsconfig.json
+.eslintrc.js
+.jest.config.js
+
+# Documentation
+docs/
+*.md
+
+# Scripts
+scripts/
